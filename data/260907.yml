@@ -5,13 +5,13 @@ about:
   head: cee84f9
   archived: false
   latestVersion: "v2.4.0"
-  collectedAt: 2026-09-07T05:46:28Z
+  collectedAt: 2026-09-07T18:38:59Z
 timeline:
   created: 2011-06-07
   lastCommit: 2025-10-22
   lastRelease: 2023-12-12
 popularity:
-  star: 4907
+  star: 4908
   watcher: 101
   fork: 905
   release: 10
@@ -84,7 +84,7 @@ total:
   commit: 1944
 ---
 path: /home/runner/.x-repo/github.com/s3tools/s3cmd
-collectedAt: 2026-09-07T05:46:29Z
+collectedAt: 2026-09-07T18:39:01Z
 loc:
   Python:
     code: 10003
@@ -243,7 +243,7 @@ checks:
       - 'Warn: 0 commits out of 26 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:46:30+00:00
+  collectedAt: 2026-09-07T18:39:01+00:00
   platform:
     darwin/arm64:
       name:  null

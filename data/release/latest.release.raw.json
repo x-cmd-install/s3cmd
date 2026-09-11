@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 164998,
       "digest": null,
-      "download_count": 4656,
+      "download_count": 4658,
       "created_at": "2023-12-12T02:57:15Z",
       "updated_at": "2023-12-12T02:57:16Z",
       "browser_download_url": "https://github.com/s3tools/s3cmd/releases/download/v2.4.0/s3cmd-2.4.0-py2.py3-none-any.whl"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 144976,
       "digest": null,
-      "download_count": 60530,
+      "download_count": 60548,
       "created_at": "2023-12-12T02:57:17Z",
       "updated_at": "2023-12-12T02:57:17Z",
       "browser_download_url": "https://github.com/s3tools/s3cmd/releases/download/v2.4.0/s3cmd-2.4.0.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 161418,
       "digest": null,
-      "download_count": 9142,
+      "download_count": 9143,
       "created_at": "2023-12-12T02:57:16Z",
       "updated_at": "2023-12-12T02:57:17Z",
       "browser_download_url": "https://github.com/s3tools/s3cmd/releases/download/v2.4.0/s3cmd-2.4.0.zip"

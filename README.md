@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,909 · **Forks**: 905 · **Open issues**: 936 · **Contributors**: 172
+- **Stars**: 4,907 · **Forks**: 905 · **Open issues**: 936 · **Contributors**: 172
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-15 | 0 | 0 | 0 | 0 | 2 | 0 |
-| 90d | 2026-06-15 | 0 | 0 | 0 | 0 | 3 | 0 |
-| last180d | 2026-03-17 | 0 | 0 | 0 | 0 | 6 | 0 |
-| 360d | 2025-09-18 | 0 | 0 | 0 | 0 | 11 | 5 |
-| last720d | 2024-09-23 | 0 | 8 | 4 | 2 | 24 | 24 |
+| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-16 | 0 | 0 | 0 | 0 | 2 | 0 |
+| 90d | 2026-06-16 | 0 | 0 | 0 | 0 | 3 | 0 |
+| last180d | 2026-03-18 | 0 | 0 | 0 | 0 | 6 | 0 |
+| 360d | 2025-09-19 | 0 | 0 | 0 | 0 | 11 | 5 |
+| last720d | 2024-09-24 | 0 | 8 | 4 | 2 | 24 | 24 |
 
 ## Release assets
 
@@ -76,25 +76,6 @@ Lowest-scoring checks:
 | [s3cmd-2.4.0.zip](https://github.com/s3tools/s3cmd/releases/download/v2.4.0/s3cmd-2.4.0.zip) | 157.6 KiB | `other` |
 | [s3cmd-2.4.0.zip.asc](https://github.com/s3tools/s3cmd/releases/download/v2.4.0/s3cmd-2.4.0.zip.asc) | 833 B | `other` |
 
-## Distribution status
-
-Reported by **105** distros on [repology.org](https://repology.org/project/s3cmd). **74** are ✅ on the latest upstream release, **28** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.4.0` | ✅ latest |
-| Debian 14 | `2.4.0` | ✅ latest |
-| Debian 13 | `2.4.0` | ✅ latest |
-| Ubuntu 26.04 LTS | `2.4.0` | ✅ latest |
-| Ubuntu 24.04 LTS | `2.4.0` | ✅ latest |
-| Arch | `2.4.0` | ✅ latest |
-| Homebrew | `2.4.0` | ✅ latest |
-| Fedora rawhide | `2.4.0` | ✅ latest |
-| Nix unstable | `2.4.0` | ✅ latest |
-| Void | `2.4.0` | ✅ latest |
-| Alpine edge | `2.4.0` | ✅ latest |
-| openSUSE Tumbleweed | `2.4.0` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for s3cmd lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `s3cmd` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -104,4 +85,4 @@ Install metadata for s3cmd lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:14:46Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:11:07Z._

@@ -1,4 +1,4 @@
-- repo: nix_stable_25_05
+- repo: nix_stable_24_05
   srcname: s3cmd
   visiblename: s3cmd
   version: 2.4.0
@@ -9,7 +9,7 @@
     - fallback-mnt-nix@repology
   licenses:
     - GPL-2.0-or-later
-- repo: nix_stable_25_11
+- repo: nix_stable_24_11
   srcname: s3cmd
   visiblename: s3cmd
   version: 2.4.0
@@ -20,48 +20,6 @@
     - fallback-mnt-nix@repology
   licenses:
     - GPL-2.0-or-later
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: s3cmd
-  binnames:
-    - s3cmd
-  visiblename: s3cmd
-  version: 2.1.0
-  origversion: 2.1.0-2
-  status: outdated
-  maintainers:
-    - matt@domsch.com
-    - locutusofborg@debian.org
-  categories:
-    - utils
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: s3cmd
-  binnames:
-    - s3cmd
-  visiblename: s3cmd
-  version: 2.4.0
-  origversion: 2.4.0-3
-  status: newest
-  maintainers:
-    - matt@domsch.com
-    - locutusofborg@debian.org
-  categories:
-    - utils
-- repo: fedora_39
-  subrepo: release
-  srcname: s3cmd
-  binnames:
-    - s3cmd
-  visiblename: s3cmd
-  version: 2.3.0
-  origversion: 2.3.0-6.fc39
-  status: legacy
-  summary: Tool for accessing Amazon Simple Storage Service
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Unspecified
 - repo: aix_osp
   srcname: s3cmd
   visiblename: s3cmd
@@ -133,276 +91,7 @@
     - michal@polanski.me
   licenses:
     - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: s3cmd
-  binname: s3cmd
-  visiblename: s3cmd
-  version: 2.3.0
-  origversion: 2.3.0-r3
-  status: outdated
-  summary: Command-line tool for managing Amazon S3 and CloudFront services
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: s3cmd
-  binname: s3cmd-doc
-  visiblename: s3cmd-doc
-  version: 2.3.0
-  origversion: 2.3.0-r3
-  status: outdated
-  summary: Command-line tool for managing Amazon S3 and CloudFront services (documentation)
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: s3cmd
-  binname: s3cmd-pyc
-  visiblename: s3cmd-pyc
-  version: 2.3.0
-  origversion: 2.3.0-r3
-  status: outdated
-  summary: Precompiled Python bytecode for s3cmd
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: s3cmd
-  binname: s3cmd
-  visiblename: s3cmd
-  version: 2.4.0
-  origversion: 2.4.0-r1
-  status: newest
-  summary: Command-line tool for managing Amazon S3 and CloudFront services
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: s3cmd
-  binname: s3cmd-doc
-  visiblename: s3cmd-doc
-  version: 2.4.0
-  origversion: 2.4.0-r1
-  status: newest
-  summary: Command-line tool for managing Amazon S3 and CloudFront services (documentation)
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: s3cmd
-  binname: s3cmd-pyc
-  visiblename: s3cmd-pyc
-  version: 2.4.0
-  origversion: 2.4.0-r1
-  status: newest
-  summary: Precompiled Python bytecode for s3cmd
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: s3cmd
-  binname: s3cmd
-  visiblename: s3cmd
-  version: 2.4.0
-  origversion: 2.4.0-r1
-  status: newest
-  summary: Command-line tool for managing Amazon S3 and CloudFront services
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: s3cmd
-  binname: s3cmd-doc
-  visiblename: s3cmd-doc
-  version: 2.4.0
-  origversion: 2.4.0-r1
-  status: newest
-  summary: Command-line tool for managing Amazon S3 and CloudFront services (documentation)
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: s3cmd
-  binname: s3cmd-pyc
-  visiblename: s3cmd-pyc
-  version: 2.4.0
-  origversion: 2.4.0-r1
-  status: newest
-  summary: Precompiled Python bytecode for s3cmd
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: epel_6
-  srcname: s3cmd
-  visiblename: s3cmd
-  version: 2.1.0
-  origversion: 2.1.0-1.el6
-  status: outdated
-  summary: Tool for accessing Amazon Simple Storage Service
-  licenses:
-    - GPLv2+
-  categories:
-    - Unspecified
-- repo: alpine_3_22
-  subrepo: community
-  srcname: s3cmd
-  binname: s3cmd
-  visiblename: s3cmd
-  version: 2.4.0
-  origversion: 2.4.0-r1
-  status: newest
-  summary: Command-line tool for managing Amazon S3 and CloudFront services
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: s3cmd
-  binname: s3cmd-doc
-  visiblename: s3cmd-doc
-  version: 2.4.0
-  origversion: 2.4.0-r1
-  status: newest
-  summary: Command-line tool for managing Amazon S3 and CloudFront services (documentation)
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: s3cmd
-  binname: s3cmd-pyc
-  visiblename: s3cmd-pyc
-  version: 2.4.0
-  origversion: 2.4.0-r1
-  status: newest
-  summary: Precompiled Python bytecode for s3cmd
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: s3cmd
-  binname: s3cmd
-  visiblename: s3cmd
-  version: 2.4.0
-  origversion: 2.4.0-r1
-  status: newest
-  summary: Command-line tool for managing Amazon S3 and CloudFront services
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: s3cmd
-  binname: s3cmd-doc
-  visiblename: s3cmd-doc
-  version: 2.4.0
-  origversion: 2.4.0-r1
-  status: newest
-  summary: Command-line tool for managing Amazon S3 and CloudFront services (documentation)
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: s3cmd
-  binname: s3cmd-pyc
-  visiblename: s3cmd-pyc
-  version: 2.4.0
-  origversion: 2.4.0-r1
-  status: newest
-  summary: Precompiled Python bytecode for s3cmd
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: openpkg_current
-  srcname: s3cmd
-  visiblename: s3cmd
-  version: 2.4.0
-  origversion: null
-  status: newest
-  summary: Command-Line Interface to AWS S3 or Minio
-  licenses:
-    - GPL
-  categories:
-    - Networking
-- repo: alpine_3_24
-  subrepo: community
-  srcname: s3cmd
-  binname: s3cmd
-  visiblename: s3cmd
-  version: 2.4.0
-  origversion: 2.4.0-r2
-  status: newest
-  summary: Command-line tool for managing Amazon S3 and CloudFront services
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: s3cmd
-  binname: s3cmd-doc
-  visiblename: s3cmd-doc
-  version: 2.4.0
-  origversion: 2.4.0-r2
-  status: newest
-  summary: Command-line tool for managing Amazon S3 and CloudFront services (documentation)
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: s3cmd
-  binname: s3cmd-pyc
-  visiblename: s3cmd-pyc
-  version: 2.4.0
-  origversion: 2.4.0-r2
-  status: newest
-  summary: Precompiled Python bytecode for s3cmd
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_edge
-  subrepo: community
-  srcname: s3cmd
-  binname: s3cmd
-  visiblename: s3cmd
-  version: 2.4.0
-  origversion: 2.4.0-r2
-  status: newest
-  summary: Command-line tool for managing Amazon S3 and CloudFront services
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_stable_24_11
+- repo: nix_stable_25_05
   srcname: s3cmd
   visiblename: s3cmd
   version: 2.4.0
@@ -413,6 +102,264 @@
     - fallback-mnt-nix@repology
   licenses:
     - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: s3cmd
+  binname: s3cmd
+  visiblename: s3cmd
+  version: 2.3.0
+  origversion: 2.3.0-r3
+  status: outdated
+  summary: Command-line tool for managing Amazon S3 and CloudFront services
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: s3cmd
+  binname: s3cmd-doc
+  visiblename: s3cmd-doc
+  version: 2.3.0
+  origversion: 2.3.0-r3
+  status: outdated
+  summary: Command-line tool for managing Amazon S3 and CloudFront services (documentation)
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: s3cmd
+  binname: s3cmd-pyc
+  visiblename: s3cmd-pyc
+  version: 2.3.0
+  origversion: 2.3.0-r3
+  status: outdated
+  summary: Precompiled Python bytecode for s3cmd
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: s3cmd
+  binname: s3cmd
+  visiblename: s3cmd
+  version: 2.4.0
+  origversion: 2.4.0-r1
+  status: newest
+  summary: Command-line tool for managing Amazon S3 and CloudFront services
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: s3cmd
+  binname: s3cmd-doc
+  visiblename: s3cmd-doc
+  version: 2.4.0
+  origversion: 2.4.0-r1
+  status: newest
+  summary: Command-line tool for managing Amazon S3 and CloudFront services (documentation)
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: s3cmd
+  binname: s3cmd-pyc
+  visiblename: s3cmd-pyc
+  version: 2.4.0
+  origversion: 2.4.0-r1
+  status: newest
+  summary: Precompiled Python bytecode for s3cmd
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: s3cmd
+  binname: s3cmd
+  visiblename: s3cmd
+  version: 2.4.0
+  origversion: 2.4.0-r1
+  status: newest
+  summary: Command-line tool for managing Amazon S3 and CloudFront services
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: s3cmd
+  binname: s3cmd-doc
+  visiblename: s3cmd-doc
+  version: 2.4.0
+  origversion: 2.4.0-r1
+  status: newest
+  summary: Command-line tool for managing Amazon S3 and CloudFront services (documentation)
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: s3cmd
+  binname: s3cmd-pyc
+  visiblename: s3cmd-pyc
+  version: 2.4.0
+  origversion: 2.4.0-r1
+  status: newest
+  summary: Precompiled Python bytecode for s3cmd
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: s3cmd
+  binname: s3cmd
+  visiblename: s3cmd
+  version: 2.4.0
+  origversion: 2.4.0-r1
+  status: newest
+  summary: Command-line tool for managing Amazon S3 and CloudFront services
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_25_11
+  srcname: s3cmd
+  visiblename: s3cmd
+  version: 2.4.0
+  origversion: null
+  status: newest
+  summary: Command line tool for managing Amazon S3 and CloudFront services
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: s3cmd
+  binname: s3cmd-doc
+  visiblename: s3cmd-doc
+  version: 2.4.0
+  origversion: 2.4.0-r1
+  status: newest
+  summary: Command-line tool for managing Amazon S3 and CloudFront services (documentation)
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: s3cmd
+  binname: s3cmd-pyc
+  visiblename: s3cmd-pyc
+  version: 2.4.0
+  origversion: 2.4.0-r1
+  status: newest
+  summary: Precompiled Python bytecode for s3cmd
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: s3cmd
+  binname: s3cmd
+  visiblename: s3cmd
+  version: 2.4.0
+  origversion: 2.4.0-r1
+  status: newest
+  summary: Command-line tool for managing Amazon S3 and CloudFront services
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: s3cmd
+  binname: s3cmd-doc
+  visiblename: s3cmd-doc
+  version: 2.4.0
+  origversion: 2.4.0-r1
+  status: newest
+  summary: Command-line tool for managing Amazon S3 and CloudFront services (documentation)
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: s3cmd
+  binname: s3cmd-pyc
+  visiblename: s3cmd-pyc
+  version: 2.4.0
+  origversion: 2.4.0-r1
+  status: newest
+  summary: Precompiled Python bytecode for s3cmd
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: s3cmd
+  binname: s3cmd
+  visiblename: s3cmd
+  version: 2.4.0
+  origversion: 2.4.0-r2
+  status: newest
+  summary: Command-line tool for managing Amazon S3 and CloudFront services
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: s3cmd
+  binname: s3cmd-doc
+  visiblename: s3cmd-doc
+  version: 2.4.0
+  origversion: 2.4.0-r2
+  status: newest
+  summary: Command-line tool for managing Amazon S3 and CloudFront services (documentation)
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: s3cmd
+  binname: s3cmd-pyc
+  visiblename: s3cmd-pyc
+  version: 2.4.0
+  origversion: 2.4.0-r2
+  status: newest
+  summary: Precompiled Python bytecode for s3cmd
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_edge
+  subrepo: community
+  srcname: s3cmd
+  binname: s3cmd
+  visiblename: s3cmd
+  version: 2.4.0
+  origversion: 2.4.0-r2
+  status: newest
+  summary: Command-line tool for managing Amazon S3 and CloudFront services
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - GPL-2.0-or-later
 - repo: alpine_edge
   subrepo: community
   srcname: s3cmd
@@ -426,6 +373,20 @@
     - michal@polanski.me
   licenses:
     - GPL-2.0-or-later
+- repo: ubuntu_20_04
+  subrepo: focal-updates/universe
+  srcname: s3cmd
+  binnames:
+    - s3cmd
+  visiblename: s3cmd
+  version: 2.0.2
+  origversion: 2.0.2-1ubuntu1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - locutusofborg@debian.org
+  categories:
+    - universe/admin
 - repo: alpine_edge
   subrepo: community
   srcname: s3cmd
@@ -597,6 +558,45 @@
     - locutusofborg@debian.org
   categories:
     - misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: s3cmd
+  binnames:
+    - s3cmd
+  visiblename: s3cmd
+  version: 2.1.0
+  origversion: 2.1.0-2
+  status: outdated
+  maintainers:
+    - matt@domsch.com
+    - locutusofborg@debian.org
+  categories:
+    - utils
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: s3cmd
+  binnames:
+    - s3cmd
+  visiblename: s3cmd
+  version: 2.4.0
+  origversion: 2.4.0-3
+  status: newest
+  maintainers:
+    - matt@domsch.com
+    - locutusofborg@debian.org
+  categories:
+    - utils
+- repo: epel_6
+  srcname: s3cmd
+  visiblename: s3cmd
+  version: 2.1.0
+  origversion: 2.1.0-1.el6
+  status: outdated
+  summary: Tool for accessing Amazon Simple Storage Service
+  licenses:
+    - GPLv2+
+  categories:
+    - Unspecified
 - repo: epel_7
   srcname: s3cmd
   visiblename: s3cmd
@@ -657,6 +657,20 @@
     - fallback-mnt-exherbo@repology
   categories:
     - net-apps
+- repo: fedora_39
+  subrepo: release
+  srcname: s3cmd
+  binnames:
+    - s3cmd
+  visiblename: s3cmd
+  version: 2.3.0
+  origversion: 2.3.0-6.fc39
+  status: legacy
+  summary: Tool for accessing Amazon Simple Storage Service
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Unspecified
 - repo: fedora_39
   subrepo: updates
   srcname: s3cmd
@@ -783,6 +797,20 @@
     - GPL-2.0-or-later
   categories:
     - Unspecified
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: s3cmd
+  binnames:
+    - s3cmd
+  visiblename: s3cmd
+  version: 1.6.1
+  origversion: 1.6.1-1
+  status: outdated
+  maintainers:
+    - matt@domsch.com
+    - locutusofborg@debian.org
+  categories:
+    - universe/admin
 - repo: fedora_rawhide
   subrepo: development
   srcname: s3cmd
@@ -923,17 +951,6 @@
   summary: A command line client for Amazon S3
   licenses:
     - GPL-2.0-only
-- repo: nix_stable_24_05
-  srcname: s3cmd
-  visiblename: s3cmd
-  version: 2.4.0
-  origversion: null
-  status: newest
-  summary: Command line tool for managing Amazon S3 and CloudFront services
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - GPL-2.0-or-later
 - repo: nix_stable_26_05
   srcname: s3cmd
   visiblename: s3cmd
@@ -956,6 +973,17 @@
     - fallback-mnt-nix@repology
   licenses:
     - GPL-2.0-or-later
+- repo: openpkg_current
+  srcname: s3cmd
+  visiblename: s3cmd
+  version: 2.4.0
+  origversion: null
+  status: newest
+  summary: Command-Line Interface to AWS S3 or Minio
+  licenses:
+    - GPL
+  categories:
+    - Networking
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: s3cmd
@@ -1134,20 +1162,6 @@
     - python-apps-team@lists.alioth.debian.org
   categories:
     - universe/admin
-- repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: s3cmd
-  binnames:
-    - s3cmd
-  visiblename: s3cmd
-  version: 1.6.1
-  origversion: 1.6.1-1
-  status: outdated
-  maintainers:
-    - matt@domsch.com
-    - locutusofborg@debian.org
-  categories:
-    - universe/admin
 - repo: ubuntu_18_04
   subrepo: bionic/universe
   srcname: s3cmd
@@ -1159,20 +1173,6 @@
   status: outdated
   maintainers:
     - matt@domsch.com
-    - locutusofborg@debian.org
-  categories:
-    - universe/admin
-- repo: ubuntu_20_04
-  subrepo: focal-updates/universe
-  srcname: s3cmd
-  binnames:
-    - s3cmd
-  visiblename: s3cmd
-  version: 2.0.2
-  origversion: 2.0.2-1ubuntu1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
     - locutusofborg@debian.org
   categories:
     - universe/admin

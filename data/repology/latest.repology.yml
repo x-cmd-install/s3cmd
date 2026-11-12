@@ -1,3 +1,11 @@
+- repo: slackbuilds
+  srcname: python/s3cmd
+  visiblename: python/s3cmd
+  version: 2.0.2
+  origversion: null
+  status: outdated
+  categories:
+    - python
 - repo: raspbian_oldstable
   subrepo: main
   srcname: s3cmd
@@ -332,14 +340,6 @@
     - michal@polanski.me
   licenses:
     - GPL-2.0-or-later
-- repo: slackbuilds
-  srcname: python/s3cmd
-  visiblename: python/s3cmd
-  version: 2.0.2
-  origversion: null
-  status: outdated
-  categories:
-    - python
 - repo: alpine_3_24
   subrepo: community
   srcname: s3cmd
@@ -433,20 +433,6 @@
   summary: A command line client for Amazon S3
   licenses:
     - GPL-2.0-only
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: s3cmd
-  binnames:
-    - s3cmd
-  visiblename: s3cmd
-  version: 2.1.0
-  origversion: 2.1.0-2
-  status: outdated
-  maintainers:
-    - matt@domsch.com
-    - locutusofborg@debian.org
-  categories:
-    - utils
 - repo: aur
   srcname: s3cmd-git
   binname: s3cmd-git
@@ -592,17 +578,6 @@
     - locutusofborg@debian.org
   categories:
     - utils
-- repo: epel_6
-  srcname: s3cmd
-  visiblename: s3cmd
-  version: 2.1.0
-  origversion: 2.1.0-1.el6
-  status: outdated
-  summary: Tool for accessing Amazon Simple Storage Service
-  licenses:
-    - GPLv2+
-  categories:
-    - Unspecified
 - repo: epel_7
   srcname: s3cmd
   visiblename: s3cmd
@@ -1049,7 +1024,7 @@
   categories:
     - utils
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: s3cmd
   binnames:
     - s3cmd
@@ -1063,7 +1038,7 @@
   categories:
     - utils
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: s3cmd
   binnames:
     - s3cmd
@@ -1082,6 +1057,20 @@
   version: 1.6.1
   origversion: 1.6.1-2
   status: outdated
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: s3cmd
+  binnames:
+    - s3cmd
+  visiblename: s3cmd
+  version: 2.1.0
+  origversion: 2.1.0-2
+  status: outdated
+  maintainers:
+    - matt@domsch.com
+    - locutusofborg@debian.org
+  categories:
+    - utils
 - repo: pureos_landing
   subrepo: landing/main
   srcname: s3cmd

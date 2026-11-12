@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,915 · **Forks**: 903 · **Open issues**: 936 · **Contributors**: 172
+- **Stars**: 4,915 · **Forks**: 903 · **Open issues**: 937 · **Contributors**: 172
 
 ## Totals (cumulative)
 
-- **Releases**: 10 · **Merged PRs**: 307 · **Open PRs**: 40 · **Closed issues**: 666 · **Open issues**: 270 · **Commits**: 1944
+- **Releases**: 10 · **Merged PRs**: 307 · **Open PRs**: 40 · **Closed issues**: 666 · **Open issues**: 271 · **Commits**: 1944
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last60d | 2026-09-12 | 0 | 0 | 0 | 0 | 1 | 0 |
-| 90d | 2026-08-13 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last180d | 2026-05-15 | 0 | 0 | 0 | 0 | 6 | 0 |
-| 360d | 2025-11-16 | 0 | 0 | 0 | 0 | 10 | 0 |
-| last720d | 2024-11-21 | 0 | 6 | 3 | 1 | 22 | 23 |
+| 30d | 2026-10-13 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last60d | 2026-09-13 | 0 | 0 | 0 | 0 | 2 | 0 |
+| 90d | 2026-08-14 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last180d | 2026-05-16 | 0 | 0 | 0 | 0 | 7 | 0 |
+| 360d | 2025-11-17 | 0 | 0 | 0 | 0 | 11 | 0 |
+| last720d | 2024-11-22 | 0 | 6 | 3 | 1 | 23 | 23 |
 
 ## Release assets
 
@@ -78,7 +78,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **102** distros on [repology.org](https://repology.org/project/s3cmd). **74** are ✅ on the latest upstream release, **25** are ⚠️ on an older version.
+Reported by **101** distros on [repology.org](https://repology.org/project/s3cmd). **74** are ✅ on the latest upstream release, **24** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -104,4 +104,4 @@ Install metadata for s3cmd lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T07:15:03Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T08:36:58Z._

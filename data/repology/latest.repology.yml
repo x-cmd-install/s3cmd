@@ -1,11 +1,3 @@
-- repo: slackbuilds
-  srcname: python/s3cmd
-  visiblename: python/s3cmd
-  version: 2.0.2
-  origversion: null
-  status: outdated
-  categories:
-    - python
 - repo: raspbian_oldstable
   subrepo: main
   srcname: s3cmd
@@ -43,6 +35,128 @@
   version: 2.4.0
   origversion: 2.4.0-3
   status: newest
+  maintainers:
+    - matt@domsch.com
+    - locutusofborg@debian.org
+  categories:
+    - utils
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: s3cmd
+  binnames:
+    - s3cmd
+  visiblename: s3cmd
+  version: 2.4.0
+  origversion: 2.4.0-3
+  status: newest
+  maintainers:
+    - matt@domsch.com
+    - locutusofborg@debian.org
+  categories:
+    - utils
+- repo: pld
+  srcname: s3cmd
+  visiblename: s3cmd
+  version: 1.6.1
+  origversion: 1.6.1-2
+  status: outdated
+- repo: slackbuilds
+  srcname: python/s3cmd
+  visiblename: python/s3cmd
+  version: 2.0.2
+  origversion: null
+  status: outdated
+  categories:
+    - python
+- repo: artix
+  subrepo: world
+  srcname: s3cmd
+  binname: s3cmd
+  visiblename: s3cmd
+  version: 2.4.0
+  origversion: 2.4.0-5
+  status: newest
+  summary: A command line client for Amazon S3
+  licenses:
+    - GPL-2.0-only
+- repo: chromebrew
+  srcname: s3cmd
+  visiblename: s3cmd
+  version: 2.4.0
+  origversion: null
+  status: newest
+  summary: Command line tool for managing Amazon S3 and CloudFront services
+  licenses:
+    - GPL-2+
+- repo: arch
+  subrepo: extra
+  srcname: s3cmd
+  binname: s3cmd
+  visiblename: s3cmd
+  version: 2.4.0
+  origversion: 2.4.0-5
+  status: newest
+  summary: A command line client for Amazon S3
+  licenses:
+    - GPL-2.0-only
+- repo: homebrew
+  srcname: s3cmd
+  visiblename: s3cmd
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Command-line tool for the Amazon S3 service
+- repo: aur
+  srcname: s3cmd-git
+  binname: s3cmd-git
+  visiblename: s3cmd-git
+  version: 2.1.0.r88.g27d8fb0
+  origversion: 2.1.0.r88.g27d8fb0-1
+  status: rolling
+  summary: A command line client for Amazon S3 (development version)
+  maintainers:
+    - yar@aur
+    - alex19ep@aur
+  licenses:
+    - GPL2
+- repo: kali_rolling
+  subrepo: main
+  srcname: s3cmd
+  binnames:
+    - s3cmd
+  visiblename: s3cmd
+  version: 2.4.0
+  origversion: 2.4.0-3
+  status: newest
+  maintainers:
+    - matt@domsch.com
+    - locutusofborg@debian.org
+  categories:
+    - utils
+- repo: altsisyphus
+  srcname: s3cmd
+  binnames:
+    - s3cmd
+  visiblename: s3cmd
+  version: 2.4.0
+  origversion: 2.4.0-alt1.1
+  status: newest
+  summary: S3cmd is a tool for managing Amazon S3 storage space
+  maintainers:
+    - serjigva@altlinux.org
+  licenses:
+    - GPLv2
+  categories:
+    - Networking/Other
+- repo: pardus_21
+  subrepo: main
+  srcname: s3cmd
+  binnames:
+    - s3cmd
+  visiblename: s3cmd
+  version: 2.1.0
+  origversion: 2.1.0-2
+  status: outdated
   maintainers:
     - matt@domsch.com
     - locutusofborg@debian.org
@@ -132,6 +246,20 @@
     - michal@polanski.me
   licenses:
     - GPL-2.0-or-later
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: s3cmd
+  binnames:
+    - s3cmd
+  visiblename: s3cmd
+  version: 2.1.0
+  origversion: 2.1.0-2
+  status: outdated
+  maintainers:
+    - matt@domsch.com
+    - locutusofborg@debian.org
+  categories:
+    - utils
 - repo: alpine_3_19
   subrepo: community
   srcname: s3cmd
@@ -262,6 +390,20 @@
     - michal@polanski.me
   licenses:
     - GPL-2.0-or-later
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: s3cmd
+  binnames:
+    - s3cmd
+  visiblename: s3cmd
+  version: 2.4.0
+  origversion: 2.4.0-3
+  status: newest
+  maintainers:
+    - matt@domsch.com
+    - locutusofborg@debian.org
+  categories:
+    - utils
 - repo: alpine_3_22
   subrepo: community
   srcname: s3cmd
@@ -314,6 +456,20 @@
     - michal@polanski.me
   licenses:
     - GPL-2.0-or-later
+- repo: parrot
+  subrepo: parrot/main
+  srcname: s3cmd
+  binnames:
+    - s3cmd
+  visiblename: s3cmd
+  version: 2.4.0
+  origversion: 2.4.0-3
+  status: newest
+  maintainers:
+    - matt@domsch.com
+    - locutusofborg@debian.org
+  categories:
+    - utils
 - repo: alpine_3_24
   subrepo: community
   srcname: s3cmd
@@ -407,65 +563,6 @@
     - GPLv2
   categories:
     - Networking/Other
-- repo: altsisyphus
-  srcname: s3cmd
-  binnames:
-    - s3cmd
-  visiblename: s3cmd
-  version: 2.4.0
-  origversion: 2.4.0-alt1.1
-  status: newest
-  summary: S3cmd is a tool for managing Amazon S3 storage space
-  maintainers:
-    - serjigva@altlinux.org
-  licenses:
-    - GPLv2
-  categories:
-    - Networking/Other
-- repo: arch
-  subrepo: extra
-  srcname: s3cmd
-  binname: s3cmd
-  visiblename: s3cmd
-  version: 2.4.0
-  origversion: 2.4.0-5
-  status: newest
-  summary: A command line client for Amazon S3
-  licenses:
-    - GPL-2.0-only
-- repo: aur
-  srcname: s3cmd-git
-  binname: s3cmd-git
-  visiblename: s3cmd-git
-  version: 2.1.0.r88.g27d8fb0
-  origversion: 2.1.0.r88.g27d8fb0-1
-  status: rolling
-  summary: A command line client for Amazon S3 (development version)
-  maintainers:
-    - yar@aur
-    - alex19ep@aur
-  licenses:
-    - GPL2
-- repo: artix
-  subrepo: world
-  srcname: s3cmd
-  binname: s3cmd
-  visiblename: s3cmd
-  version: 2.4.0
-  origversion: 2.4.0-5
-  status: newest
-  summary: A command line client for Amazon S3
-  licenses:
-    - GPL-2.0-only
-- repo: chromebrew
-  srcname: s3cmd
-  visiblename: s3cmd
-  version: 2.4.0
-  origversion: null
-  status: newest
-  summary: Command line tool for managing Amazon S3 and CloudFront services
-  licenses:
-    - GPL-2+
 - repo: debian_11
   subrepo: bullseye/main
   srcname: s3cmd
@@ -778,6 +875,20 @@
     - GPL-2.0-or-later
   categories:
     - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: s3cmd
+  binnames:
+    - s3cmd
+  visiblename: s3cmd
+  version: 2.4.0
+  origversion: 2.4.0-14.fc45
+  status: newest
+  summary: Tool for accessing Amazon Simple Storage Service
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: s3cmd
@@ -821,27 +932,6 @@
   origversion: null
   status: newest
   summary: Command-line tool for the Amazon S3 service
-- repo: homebrew
-  srcname: s3cmd
-  visiblename: s3cmd
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Command-line tool for the Amazon S3 service
-- repo: kali_rolling
-  subrepo: main
-  srcname: s3cmd
-  binnames:
-    - s3cmd
-  visiblename: s3cmd
-  version: 2.4.0
-  origversion: 2.4.0-3
-  status: newest
-  maintainers:
-    - matt@domsch.com
-    - locutusofborg@debian.org
-  categories:
-    - utils
 - repo: liguros_stable
   srcname: net-misc/s3cmd
   visiblename: net-misc/s3cmd
@@ -1009,82 +1099,6 @@
   summary: A command line client for Amazon S3
   licenses:
     - GPL-2.0-only
-- repo: pardus_21
-  subrepo: main
-  srcname: s3cmd
-  binnames:
-    - s3cmd
-  visiblename: s3cmd
-  version: 2.1.0
-  origversion: 2.1.0-2
-  status: outdated
-  maintainers:
-    - matt@domsch.com
-    - locutusofborg@debian.org
-  categories:
-    - utils
-- repo: parrot
-  subrepo: parrot/main
-  srcname: s3cmd
-  binnames:
-    - s3cmd
-  visiblename: s3cmd
-  version: 2.4.0
-  origversion: 2.4.0-3
-  status: newest
-  maintainers:
-    - matt@domsch.com
-    - locutusofborg@debian.org
-  categories:
-    - utils
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: s3cmd
-  binnames:
-    - s3cmd
-  visiblename: s3cmd
-  version: 2.4.0
-  origversion: 2.4.0-3
-  status: newest
-  maintainers:
-    - matt@domsch.com
-    - locutusofborg@debian.org
-  categories:
-    - utils
-- repo: pld
-  srcname: s3cmd
-  visiblename: s3cmd
-  version: 1.6.1
-  origversion: 1.6.1-2
-  status: outdated
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: s3cmd
-  binnames:
-    - s3cmd
-  visiblename: s3cmd
-  version: 2.1.0
-  origversion: 2.1.0-2
-  status: outdated
-  maintainers:
-    - matt@domsch.com
-    - locutusofborg@debian.org
-  categories:
-    - utils
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: s3cmd
-  binnames:
-    - s3cmd
-  visiblename: s3cmd
-  version: 2.4.0
-  origversion: 2.4.0-3
-  status: newest
-  maintainers:
-    - matt@domsch.com
-    - locutusofborg@debian.org
-  categories:
-    - utils
 - repo: t2
   srcname: s3cmd
   visiblename: s3cmd
